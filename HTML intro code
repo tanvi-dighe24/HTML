@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    
+    <!-- HTML Headings (ctrl+/) -->
+    <h1>Hello,Good Evening</h1>
+    <h2>Today was the great day</h2>
+    <h3>Tomorrow is the big day</h3>
+    <h4>Tomorrow is the big day</h4>
+    <h5>Tomorrow is the big day</h5>
+    <h6>Tomorrow is the big day</h6>
+
+    <!-- HTML paragraph -->
+
+    <p>Hello students...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat harum quaerat quo nulla impedit incidunt laboriosam eos nesciunt at, quae amet illo fugiat repellat dolore, sunt tenetur voluptatibus beatae numquam?</p>
+
+    <!--  element :  tags along with content -->
+    <div>I am div and I am block level</div>
+    <div>I am div and I am block level</div>
+
+    <span>I am span and I am inline element</span>
+    <span>I am span and I am inline element</span>
+
+
+</body>
+</html> 
