@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMATTING TAGS</title>
+</head>
+<body>
+    <p>HTML Formatting</p><hr>
+
+    <b>I am bold</b><br>
+    <strong>I am strong</strong><br>
+
+    <i>I am italic</i><br>
+    <em>I am emphasized text</em><br>
+
+    <u>I am underlined</u><br>
+    <ins>I am inserted</ins><br>
+
+    <strike>I am striked</strike><br>
+    <del>I am deleted</del><br>
+
+    <small>I am small</small><br>
+
+    <big>I am big</big><br>
+
+    <mark>I am highlighted</mark><br>
+
+    a<sup>2</sup><br>
+
+    H<sub>2</sub>O
+
+</body>
+</html> 
