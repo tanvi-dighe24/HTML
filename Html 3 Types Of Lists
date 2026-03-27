@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML LISTS</title>
+</head>
+<body>
+    <!-- 1.Unordered list : list without sequence
+    type:disc/square/circle/none -->
+    <h2>Fruits</h2>
+    <ul type="circle">
+        <li>Apple</li>
+        <li>mango</li>
+        <li>orange</li>
+        <li>grapes</li>
+        <li>guava</li>
+    </ul>
+
+    <!-- 2.Ordered list 
+    type : 1/A/a/I/i-->
+    <h2>Flowers</h2>
+    <ol type="a" start="27" reversed>
+        <li>Rose</li>
+        <li>Lotus</li>
+        <li>tulip</li>
+        <li>lily</li>
+        <li>sunflower</li>
+    </ol>
+
+    <!-- 3.Description/definition list -->
+    <!-- dl-description list , dt-description term, dd-desc data -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>hyper text markup language</dd>
+
+        <dt>CSS</dt>
+        <dd>cascading style sheet</dd>
+    </dl>
+
+    <h1>Nested List</h1>
+    <ul style="color: red;">
+        <li>DSA
+            <ul style="color: blue;">
+                <li>array</li>
+                <li>linked List</li>
+                <li>stack</li>
+                <li>queue</li>
+            </ul>
+        </li>
+        <li>Web-technologies
+            <ul style="color: blue;">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>javascript</li>
+            </ul>
+        </li>
+        <li>aptitude</li>
+        <li>gate</li>
+        <li>placement</li>
+    </ul>
+
+
+</body>
+</html>
