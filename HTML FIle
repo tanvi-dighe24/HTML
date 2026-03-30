@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <!-- action : represents action to be performed once we submit the form -->
+    <!-- type : type of data -->
+    <!-- for(label) and id(input) : to link label with input
+    name : val of name attribute acts like variable to store the data entered in the input -->
+    <form action="">
+        <label for="uname">USERNAME : </label>
+        <input type="text" id="uname" name="USER"><br><br>
+
+        <label for="password">PASSWORD : </label>
+        <input type="password" id="password" name="PWD"><br><br>
+
+        <label for="mailid">EMAIL ID : </label>
+        <input type="email" name="mailid" id="mailid"><br><br>
+
+        <label for="dob">DOB : </label>
+        <input type="date" name="dob" id="dob"><br><br>
+
+        <label for="age">AGE : </label>
+        <input type="number" name="age" id="age"><br><br>
+
+        <label for="contact">CONTACT NUMBER : </label>
+        <input type="tel" name="contact" id="contact"><br><br>
+
+        <label for="res">UPLOAD RESUME : </label>
+        <input type="file" name="res" id="res"><br><br>
+
+        <label for="gen">GENDER : </label>
+        <input type="radio" name="gen" id="gen" value="MALE">MALE
+        <input type="radio" name="gen" id="gen" value="FEMALE">FEMALE
+        <input type="radio" name="gen" id="gen" value="OTHERS">OTHERS <br><br>
+
+        <label for="lang">LANGUAGES KNOWN : </label>
+        <input type="checkbox" name="lang" id="lang" value="ENGLISH">ENGLISH
+        <input type="checkbox" name="lang" id="lang" value="KANNADA">KANNADA
+        <input type="checkbox" name="lang" id="lang" value="HINDI">HINDI
+        <input type="checkbox" name="lang" id="lang" value="MARATHI">MARATHI
+        <input type="checkbox" name="lang" id="lang" value="TELUGU">TELUGU
+        <input type="checkbox" name="lang" id="lang" value="TAMIL">TAMIL
+        <input type="checkbox" name="lang" id="lang" value="MALAYALAM">MALAYALAM <br><br>
+
+        <label for="state">STATE : </label>
+        <select name="state" id="state">
+            <option value="KAR">KAR</option>
+            <option value="MAH">MAH</option>
+            <option value="GOA">GOA</option>
+            <option value="TM">TM</option>
+        </select><br><br>
+
+        <label for="city">CITY : </label>
+        <select name="city" id="city">
+            <optgroup label="KAR">
+                <option value="BNG">BNG</option>
+                <option value="MYSORE">MYSORE</option>
+                <option value="TUMKUR">TUMKUR</option>
+            </optgroup>
+            <optgroup label="MAH">
+                <option value="PUNE">PUNE</option>
+                <option value="MUMBAI">MUMBAI</option>
+            </optgroup>
+            <optgroup label="TM">
+                <option value="CHENNAI">CHENNAI</option>
+                <option value="OOTY">OOTY</option>
+            </optgroup>
+        </select><br><br>
+
+
+
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+    </form>
+    
+</body>
+</html> 
