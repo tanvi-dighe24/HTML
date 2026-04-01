@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML MEDIA</title>
+</head>
+<body>
+    
+    <!-- audio -->
+    <!-- Src : we will pass path of audio.
+    Controls : The controls attribute adds audio controls, like play, pause, and volume .
+    Muted : It will mute the audio when you open your file with browser
+    Autoplay: It will play the audio automatically when you open your file with browser.
+    Loop : The audio will start over again , every time it is finished.-->
+    <audio src="../ASSETS/Naa Ready.mp3" controls autoplay muted loop></audio>
+
+    <!-- video -->
+    <video src="../ASSETS/videoplayback.mp4" controls autoplay muted loop></video>
+
+</body>
+</html> 
